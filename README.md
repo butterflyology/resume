@@ -1,4 +1,8 @@
-resume
+The CV &amp; resume of Chris Hamm.
 ======
 
-My CV &amp; resume.
+The latex files used to generate my CV and resume.
+
+Commits:
+
+1. 2017-03-04: Initial commit 
