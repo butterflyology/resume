@@ -6,4 +6,4 @@ The latex files used to generate my CV and resume. I cloned the resume repo from
 Commits:
 
 1. 2017-03-04: Initial commit 
-1. 2017-03-05: Added hyperlinks to biorxiv refs
+1. 2017-03-05: Added hyperlinks to refs, began section on data and software
