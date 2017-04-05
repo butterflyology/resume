@@ -7,3 +7,5 @@ Commits:
 
 1. 2017-03-04: Initial commit 
 1. 2017-03-05: Added hyperlinks to refs, began section on data and software
+1. 2017-03-22: Added CSUMB Genomics workshop
+1. 2017-04-05: Added honors to degrees, code formating for package names
