@@ -10,3 +10,5 @@ Commits:
 1. 2017-03-22: Added CSUMB Genomics workshop
 1. 2017-04-05: Added honors to degrees, code formating for package names
 1. 2017-04-24: Updated *Neophasia* ms status, fixed code error that didn't render ' .
+1. 2017-04-24: Started branch "social" to explore how social media badges look. Also added **Service** section and changed all lists to chronological order (newest first).
+
