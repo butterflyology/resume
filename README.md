@@ -15,3 +15,4 @@ Commits:
 1. 2017-05-21: Updated pubs, workshops.
 1. 2017-08-07: Updated workshops and training.
 1. 2017-10-30: Added Instructor Training at Monsanto.
+1. 2017-12-18: Updated workshops section.
