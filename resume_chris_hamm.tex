@@ -1,0 +1,137 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+% Chris Hamm resume (short form), 2018-03-12
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{oldstyle}                           % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage{color}
+
+
+\newcommand{\codechunk}[1]{\texttt{#1}}
+\hypersetup{colorlinks = true, urlcolor = blue}
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Christopher}{Hamm}
+\title{Data Scientist}                               % optional, remove / comment the line if not wanted
+\address{37437 State Hwy 16}{Woodland, CA 95695}{USA}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+1~(517)~802~8503}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{+1~(530)~669~6017}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted  
+\email{cahamm@ucdavis.edu}                            % optional, remove / comment the line if not wanted
+\homepage{butterflyology.github.io}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2012}{PhD}{Michigan State University}{}{\textit{Entomology}}{}  % arguments 3 to 6 can be left empty
+\cventry{2012}{PhD}{Michigan State University}{}{\textit{Ecology, Evolutionary Biology \& Behavior}}{}  % arguments 3 to 6 can be left empty
+\cventry{2008}{MS}{California State University, Fresno}{}{Biology}{\textit{With Distinction}}
+\cventry{2004}{BS}{California State University, Fresno}{}{Biology}{\textit{Magna Cum Laude}}
+
+
+\section{Experience}
+\subsection{Vocational}
+% Monsanto
+\cventry{2018--Present}{Data Science Training Lead}{Monsanto Company}{}{}{Naveen Singla, supervisor\newline{}%
+Achievements:%
+\begin{itemize}%
+\item Organized and coordinated Software Carpentry and Instructor Training workshops
+\item Develop proprietary curriculum for company specific workflows
+\item Implement strategic vision to improve company-wide data fluency
+\end{itemize}}
+
+
+\cventry{2017--2018}{Data Scientist}{Monsanto Company}{}{}{Shawn L. Stricklin, supervisor\newline{}%
+Achievements:%
+\begin{itemize}%
+\item Organized and coordinated Software Carpentry and Instructor Training workshops
+\item Developed and implemented a program that simulated the breeding pipeline
+\item Implemented predictive modeling for sample submission to genotyping laboratory, which increased efficiency of submission coordinator
+\item \textit{ad hoc} statistical support
+\end{itemize}}
+
+% UC Davis-2
+\cventry{2016--2017}{Postdoctoral researcher}{University of California, Davis}{}{}{C. Titus Brown, supervisor.\newline{}%
+Achievements:%
+\begin{itemize}%
+\item Oversaw development and deployment of Reproducible Research with R lessons for the Data Carpentry Foundation
+\end{itemize}}
+
+% sasnaK
+\cventry{2014--2016}{Postdoctoral scholar}{University of Kansas}{}{}{James R. Walters, supervisor.\newline{}%
+Achievements:%
+\begin{itemize}%
+\item Developed tools to analyze large empirical and simulated molecular datasets
+\item Implemented and interpreted complex statistical modeling on ecological and genomic data, including differential expression analysis
+\item Formalized novel statistical models to describe bacterial infection frequency while correcting for relatedness.
+\end{itemize}}
+
+% UC Davis-1
+\cventry{2012--2014}{Postdoctoral researcher}{University of California, Davis}{Davis, California}{}{David J. Begun and Michael Turelli, supervisors.\newline{}%
+Achievements:%
+\begin{itemize}%
+\item Coordinated multi-laboratory effort to assess the use of bacterial infection for control of an invasive insect
+\item Executed comparative genomic analysis of invasive species
+\item Created bioinformatics pipeline to import, trim, and map genomic data
+\end{itemize}}
+
+
+\section{Statistical methods}
+\cvitem{}{Linear and mixed-effects models in \codechunk{R}}
+\cvitem{}{Forecasting with ARIMA and \codechunk{prophet}}
+\cvitem{}{Machine learning in \codechunk{R} \& \codechunk{Python} using \codechunk{Keras} and \codechunk{TensorFlow}}
+\cvitem{}{Hierarchical modeling and inference in \codechunk{R} and \codechunk{stan}}
+
+\section{Computer skills}
+\cvitem{Data analysis}{\codechunk{R}, \codechunk{SQL}}
+\cvitem{Reproducibility}{\codechunk{RMarkdown}, \LaTeX}
+\cvitem{General programming}{\codechunk{Python}}
+\cvitem{Version control}{\codechunk{git}, GitHub}{}{}
+\cvitem{Other}{\codechunk{BASH}}
+
+
+
+
+\clearpage
+\end{document}
+
+
+%% end of file `template.tex'.
