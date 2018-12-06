@@ -16,4 +16,5 @@ Commits:
 1. 2017-08-07: Updated workshops and training.
 1. 2017-10-30: Added Instructor Training at Monsanto.
 1. 2017-12-18: Updated workshops section.
-1. 2018-08-01: Updated position and workshops. 
+1. 2018-08-01: Updated position and workshops.
+1. 2018-12-05: Updated workshops.
