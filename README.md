@@ -19,3 +19,4 @@ Commits:
 1. 2018-08-01: Updated position and workshops.
 1. 2018-12-05: Updated workshops.
 1. 2019-07-15: Added invited talks.
+1. 2019-11-06: Added Pixar, Columbia.
