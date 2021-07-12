@@ -21,8 +21,9 @@
 \usepackage{fontawesome}
 \usepackage{hyperref}
 \usepackage{color}
+\usepackage{enumitem}
 
-
+\setlist[itemize]{noitemsep, topsep=-20pt}
 \newcommand{\codechunk}[1]{\texttt{#1}}
 \hypersetup{colorlinks = true, urlcolor = blue}
 
@@ -48,22 +49,35 @@
 \makecvtitle
 
 \section{Summary}
-Lead Data Scientist with a strong experimental background and 10+ years experience using reproducible research and rigorous analysis to generate unique insights and create value. Involved with Software Carpentry Foundation as Instructor for \codechunk{R} and \codechunk{python}.
+Lead Data Scientist with a strong research and experimental background with 10+ years experience using reproducible methods and rigorous analysis to generate unique insights and create value. Software Carpentry Foundation Trainer and Instructor for \codechunk{R} and \codechunk{python}.
+
+
+\section{Education}
+\cventry{2012}{PhD}{Michigan State University}{}{Entomology}{}  % arguments 3 to 6 can be left empty
+\cventry{2012}{PhD}{Michigan State University}{}{{Ecology, Evolutionary Biology \& Behavior}}{} 
+\cventry{2008}{MS}{California State University, Fresno}{}{Biology}{\textit{With Distinction}}
+\cventry{2004}{BS}{California State University, Fresno}{}{Biology}{\textit{Magna Cum Laude}}
 
 
 \section{Experience}
-% Monsanto
-\cventry{2018--Present}{Lead Data Scientist}{Bayer  - Crop Science - Decision Science}{}{}{Naveen Singla, supervisor.\newline{}%
-Achievements:%
-\begin{itemize}%
-\item Platinum Pinnacle Award for creating and implementing company-wide digital fluency curriculum
-\item Supervised 30+ machine learning projects
-\item Develop, promote, and distribute best practices curriculum for enterprise data scientists
-\item Organize, coordinate, mentor, and teach data fluency workshops
-\item Coordinate 15 digital fluency trainers
-\item Develop proprietary curriculum for company specific workflows
-\item Created neural network forecasting models for supply chain
-\item Member: 
+% Bayer
+\cventry{2018--Present}{Lead Data Scientist}{Bayer  - Decision Science}{}{}{Naveen Singla, supervisor.\newline{}
+\begin{itemize}
+\nointerlineskip
+\item \textbf{Technical Project Management:}
+\begin{itemize}
+	\item Supervised 30+ machine learning projects
+	\item Develop, promote, and distribute best practices curriculum for enterprise data scientists
+	\item Develop proprietary curriculum for company specific workflows
+	\item Created neural network forecasting models for supply chain
+\end{itemize}
+\item \textbf{Mentorship \& Training:}
+\begin{itemize}
+	\item Platinum Pinnacle Award for creating and implementing company-wide digital fluency curriculum
+	\item Organize, coordinate, mentor, and teach data fluency workshops
+	\item Coordinate 15 digital fluency trainers
+\end{itemize}
+\item \textbf{Member:}
 \begin{itemize}
 	\item Data Science Center of Excellence
 	\item Model Governance Team
@@ -71,16 +85,20 @@ Achievements:%
 \end{itemize}
 \end{itemize}}
 
-
+% Monsanto
 \cventry{2017--2018}{Data Scientist}{Monsanto Company}{}{}{Shawn L. Stricklin, supervisor.\newline{}%
-Achievements:%
-\begin{itemize}%
-\item Developed and implemented a program to simulate the vegetable breeding pipeline
-\item Implemented predictive modeling to predict genotype sample submission frequency
-\item Organized and coordinated Software Carpentry and Instructor Training workshops
-\item Created gradient boosted regression model to identify disease susceptible genotypes
-\item Provided \textit{ad hoc} statistical support to 10 plant breeders
+\begin{itemize}
+\nointerlineskip
+\item \textbf{Individual Contributor:}
+\begin{itemize}
+	\item Developed and implemented a program to simulate the vegetable breeding pipeline
+	\item Implemented predictive modeling to predict genotype sample submission frequency
+	\item Created gradient boosted regression model to identify disease susceptible genotypes
+	\item Provided \textit{ad hoc} statistical support to 10 plant breeders
+	\item Organized and coordinated Software Carpentry and Instructor Training workshops
+\end{itemize}
 \end{itemize}}
+
 
 % UC Davis-2
 \cventry{2016--2017}{Postdoctoral researcher}{University of California, Davis}{}{}{C. Titus Brown, supervisor.\newline{}%
@@ -120,14 +138,9 @@ Achievements:%
 \cvitem{Data analysis}{\codechunk{R}, \codechunk{Python}}
 \cvitem{Reproducibility}{ \codechunk{docker}, \codechunk{knitr, RMarkdown}, \LaTeX, jupyter notebooks,}
 \cvitem{Version control}{\codechunk{git}, GitHub, GitLab}{}{}
-\cvitem{Other}{\codechunk{BASH}, \codechunk{SQL}}
+\cvitem{Cloud computing}{AWS ML Pipeline \& \codechunk{SageMaker}, Applied AI with IBM Watson}
+\cvitem{Misc.} {\codechunk{BASH}, \codechunk{SQL}}
 
-
-\section{Education}
-\cventry{2012}{PhD}{Michigan State University}{}{Entomology}{}  % arguments 3 to 6 can be left empty
-\cventry{2012}{PhD}{Michigan State University}{}{{Ecology, Evolutionary Biology \& Behavior}}{} 
-\cventry{2008}{MS}{California State University, Fresno}{}{Biology}{\textit{With Distinction}}
-\cventry{2004}{BS}{California State University, Fresno}{}{Biology}{\textit{Magna Cum Laude}}
 
 
 
