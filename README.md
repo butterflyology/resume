@@ -23,4 +23,5 @@ Commits:
 1. 2020-01-14: Updated Columbia, CZ Biohub.
 1. 2020-01-21: Updated title, corrected punctuation
 1. 2021-06-28: Updated awards (Pinnacle) and comittees served.
-1. 2021-07-12: Updated resume to include indented sections for mentorship and technical management (thanks for Dan C. for the rec). 
+1. 2021-07-12: Updated resume to include indented sections for mentorship and technical management (thanks for Dan C. for the rec).
+1.2021-08-09: Reorganized CV following DS and DB comments. 
