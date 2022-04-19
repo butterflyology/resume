@@ -26,3 +26,4 @@ Commits:
 1. 2021-07-12: Updated resume to include indented sections for mentorship and technical management (thanks for Dan C. for the rec).
 1. 2021-08-09: Reorganized CV following DS and DB comments.
 1. 2022-01-24: Updated resume with new supervisor.
+1. 2022-04-19: Checked doc was up to date.
