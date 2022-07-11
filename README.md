@@ -27,3 +27,4 @@ Commits:
 1. 2021-08-09: Reorganized CV following DS and DB comments.
 1. 2022-01-24: Updated resume with new supervisor.
 1. 2022-04-19: Checked doc was up to date.
+1. 2022-07-11: Updated role with Nestlé-Purina.
