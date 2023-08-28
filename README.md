@@ -29,3 +29,4 @@ Commits:
 1. 2022-04-19: Checked doc was up to date.
 1. 2022-07-11: Updated role with Nestlé-Purina.
 1. 2022-11-15: Added `LC` workshop at GATech.
+1. 2023-08-28: Updated NPPC roles.
